@@ -6,7 +6,7 @@ const siteMetadata = {
   description: 'A blog created with Next.js and Tailwind.css',
   language: 'en-us',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://blog.scaliton.in',
+  siteUrl: 'https://tail-blogs.vercel.app',
   siteRepo: 'https://github.com/Pancham555/tailwind-blog',
   siteLogo: '/static/images/logo.png',
   socialBanner: '/static/images/twitter-card.png',
