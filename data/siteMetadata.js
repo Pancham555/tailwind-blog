@@ -53,19 +53,23 @@ const siteMetadata = {
     // content security policy in the `next.config.js` file.
     // Select a provider and use the environment variables associated to it
     // https://vercel.com/docs/environment-variables
-    provider: 'utterances', // supported providers: giscus, utterances, disqus
-    utterancesConfig: {
-      // Visit the link below, and follow the steps in the 'configuration' section
-      // https://utteranc.es/
-      repo: process.env.NEXT_PUBLIC_UTTERANCES_REPO,
-      issueTerm: 'pathname', // supported options: pathname, url, title
-      label: '', // label (optional): Comment 💬
-      // theme example: github-light, github-dark, preferred-color-scheme
-      // github-dark-orange, icy-dark, dark-blue, photon-dark, boxy-light
-      theme: 'github-light',
-      // theme when dark mode
-      darkTheme: '',
+    provider: 'disqus', // supported providers: giscus, utterances, disqus
+    disqus: {
+      // https://help.disqus.com/en/articles/1717111-what-s-a-shortname
+      shortname: process.env.NEXT_PUBLIC_DISQUS_SHORTNAME,
     },
+    // utterancesConfig: {
+    //   // Visit the link below, and follow the steps in the 'configuration' section
+    //   // https://utteranc.es/
+    //   repo: process.env.NEXT_PUBLIC_UTTERANCES_REPO,
+    //   issueTerm: 'pathname', // supported options: pathname, url, title
+    //   label: '', // label (optional): Comment 💬
+    //   // theme example: github-light, github-dark, preferred-color-scheme
+    //   // github-dark-orange, icy-dark, dark-blue, photon-dark, boxy-light
+    //   theme: 'github-light',
+    //   // theme when dark mode
+    //   darkTheme: '',
+    // },
     // giscusConfig: {
     //   // Visit the link below, and follow the steps in the 'configuration' section
     //   // https://giscus.app/
