@@ -14,7 +14,9 @@ const ContentSecurityPolicy = `
   connect-src *;
   font-src 'self';
   frame-src giscus.app;
-  us.umami.is
+  eu.umami.is;
+  localhost:3000;
+  umami-is.vercel.app
 `
 const securityHeaders = [
   // https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP
