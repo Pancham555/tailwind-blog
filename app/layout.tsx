@@ -74,6 +74,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <meta name="theme-color" media="(prefers-color-scheme: light)" content="#fff" />
         <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#000" />
         <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
+        <meta
+          name="google-site-verification"
+          content="ofJzDPcVhlCZeQySz-1MNmLityAW67o9s-QYI894Q58"
+        />
         <script
           defer
           src={`${process.env.URL}/script.js`}
