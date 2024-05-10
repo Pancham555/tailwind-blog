@@ -1,0 +1,4 @@
+This is a Brave Creators publisher verification file.
+
+Domain: tail-blogs.vercel.app
+Token: d45e9e27d880bc74685f4963ab0b037b3db5c58ce7ce54ec922989c733f3981b
